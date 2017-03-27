@@ -2019,7 +2019,7 @@ exports = module.exports = __webpack_require__(4)(undefined);
 
 
 // module
-exports.push([module.i, "@font-face {\n  font-family: MyriadPro;\n  src: url(" + __webpack_require__(5) + ");\n}\nbody {\n  font-family: MyriadPro;\n}\n.column {\n  columns: 2;\n}\ntable {\n  border-collapse: collapse;\n}\ntr {\n  height: 104px;\n  border-width: 0;\n}\ntd {\n  border-width: 0;\n  line-height: 0;\n  font-size: 104px;\n  font-weight: normal;\n}\n.surname {\n  font-weight: bold;\n  font-size: 123px;\n}\n.prof-name {\n  font-size: 50px;\n  font-weight: bold;\n}\nh1 {\n  font-size: 82px;\n  color: #3d6cb0;\n}\nh1 .profile p {\n  font-size: 31px;\n}\n.profile-bold {\n  font-weight: bold;\n}\n", ""]);
+exports.push([module.i, "@font-face {\n  font-family: MyriadPro;\n  src: url(" + __webpack_require__(5) + ");\n}\nbody {\n  font-family: MyriadPro;\n}\nh1 {\n  font-size: 82px;\n  color: #3d6cb0;\n}\nh2,\nli span {\n  font-size: 51px;\n  font-weight: normal;\n}\np {\n  font-size: 31px;\n}\nli span:first-child {\n  font-weight: bold;\n}\n.column {\n  columns: 2;\n}\n.name-inf {\n  border-collapse: collapse;\n}\n.name-inf.tr {\n  height: 104px;\n  border-width: 0;\n}\n.name-inf.td {\n  border-width: 0;\n  line-height: 0;\n  font-weight: normal;\n}\n.name-inf-name {\n  font-size: 104px;\n}\n.name-inf-surname {\n  font-weight: bold;\n  font-size: 123px;\n}\n.name-inf-prof-name {\n  font-size: 50px;\n  font-weight: bold;\n}\n.profile-bold {\n  font-weight: bold;\n}\n.contact-tab {\n  font-size: 41px;\n  text-align: left;\n}\n.contact-tab th {\n  color: #3d6cb0;\n  font-weight: bold;\n}\n.contact-tab td {\n  padding-left: 50px;\n}\n.software-column {\n  columns: 2;\n}\n.education-degree {\n  color: #3d6cb0;\n}\n", ""]);
 
 // exports
 
