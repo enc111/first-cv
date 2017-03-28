@@ -6,6 +6,8 @@ header-color=#3d6cb0
 
 body
   font-family MyriadPro
+  width 2480 px
+  height 3508 px
 
 h1
   font-size 82 px
@@ -16,6 +18,18 @@ li span
   font-size 51 px
   font-weight normal
 
+ul
+  list-style none
+
+li::before
+  content ''
+  display inline-block
+  width 40 px
+  height 40 px
+  border-radius 50%
+  margin-right 45 px
+  background-color #000
+
 p
     font-size 31 px
 
@@ -24,6 +38,9 @@ li span:first-child
 
 .column
   columns 2
+  //column-width 200 px
+  column-gap 153 px
+  margin-left 125 px
 
 .name-inf
   border-collapse collapse
