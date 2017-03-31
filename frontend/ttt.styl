@@ -19,15 +19,23 @@ body
 h1
   font-size 82px
   color header-color
+  display flex
+  align-items center
 
 h1::before
   content ''
   display inline-block
   circle 130px header-circles-color
   box-shadow 0 0 0 7px #ffffff,
-    0 0 0 9px header-color
+    0 0 0 9px header-circles-color
   margin-right 26px
-  vertical-align middle
+
+h1::after
+  content ''
+  display inline-block
+  height 10px
+  flex-grow 1
+  background-color header-color
 
 h2
 li span
@@ -59,7 +67,7 @@ li span:first-child
 
 .column
   columns 2
-  //column-width 200 px
+  //column-width 260 px
   column-gap 153 px
   margin-left 125 px
 
