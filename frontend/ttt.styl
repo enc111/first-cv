@@ -21,10 +21,14 @@ h1
   color header-color
   display flex
   align-items center
+  line-height 130px
 
 h1::before
-  content ''
+  content ""
   display inline-block
+  color #ffffff
+  font-size 130px
+  text-align center
   circle 130px header-circles-color
   box-shadow 0 0 0 7px #ffffff,
     0 0 0 9px header-circles-color
@@ -67,9 +71,10 @@ li span:first-child
 
 .column
   columns 2
-  //column-width 260 px
-  column-gap 153 px
-  margin-left 125 px
+  //column-width 525px
+  column-gap 153px
+  margin-left 125px
+  margin-right 115px
 
 .name-inf
   border-collapse collapse
@@ -77,7 +82,7 @@ li span:first-child
   margin-left 275px
 
 .name-inf.tr
-  height 104 px
+  height 104px
   border-width 0
 
 .name-inf.td
@@ -86,14 +91,14 @@ li span:first-child
   font-weight normal
 
 .name-inf-name
-  font-size 104 px
+  font-size 104px
 
 .name-inf-surname
   font-weight bold
-  font-size 123 px
+  font-size 123px
 
 .name-inf-prof-name
-  font-size 50 px
+  font-size 50px
   font-weight bold
 
 .name-inf-prof-name
@@ -102,8 +107,11 @@ li span:first-child
 .profile-bold
   font-weight bold
 
+.contact h1::before
+  content "📞"
+
 .contact-tab
-  font-size 41 px
+  font-size 41px
   text-align left
 
 .contact-tab th
@@ -111,10 +119,13 @@ li span:first-child
   font-weight bold
 
 .contact-tab td
-  padding-left 50 px
+  padding-left 50px
 
 .software-column
   columns 2
+
+.education h1::before
+  content "\2605"
 
 .education-degree
   color header-color
