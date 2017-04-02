@@ -3,7 +3,7 @@ head
     title cv
 body
     div.column
-        div.circle
+        div.big-circle
 
         table.name-inf
             tr
@@ -37,14 +37,26 @@ body
 
         div.skills
             h1 SKILLS
+            mixin skill(n)
+                -var skillPoints = 12;
+                div.skill
+                    while skillPoints--
+                        if skillPoints < 12 - n
+                            span.skills-points
+                        else
+                            span.skills-points-colored
             div.skills-creative
                 h2 CREATIVE
+                +skill(9)
             div.skills-teamwork
                 h2 TEAMWORK
+                +skill(11)
             div.skills-innovate
                 h2 INNOVATE
+                +skill(6)
             div.skills-communication
                 h2 COMMUNICATION
+                +skill(11)
 
         div.education
             h1 EDUCATION

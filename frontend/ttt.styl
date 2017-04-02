@@ -4,6 +4,7 @@
 
 header-color=#3d6cb0
 header-circles-color=#3f6fb6
+points-base-color=#e6e6e6
 
 circle(n, color)
   width n
@@ -55,13 +56,12 @@ li::before
   circle 40px #000000
   margin-right 45px
 
-.circle
+.big-circle
   margin-top 176px
   margin-left 320px
   circle 405px header-color
   box-shadow 0 0 0 28px #ffffff,
     0 0 0 30px header-color
-
 
 p
     font-size 31px
@@ -120,6 +120,20 @@ li span:first-child
 
 .contact-tab td
   padding-left 50px
+
+.skills
+  text-align center
+
+.skills-points
+.skills-points-colored
+  display inline-block
+  margin-right 20px
+
+.skills-points
+  circle 35px points-base-color
+
+.skills-points-colored
+  circle 35px header-color
 
 .software-column
   columns 2
