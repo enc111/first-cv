@@ -12,6 +12,11 @@ circle(n, color)
   border-radius 50%
   background-color color
 
+rect()
+  display inline-block
+  height 45px
+  background-color header-color
+
 body
   font-family MyriadPro
   width 2480px
@@ -135,11 +140,36 @@ li span:first-child
 .skills-points-colored
   circle 35px header-color
 
-.software-column
-  columns 2
-
 .education h1::before
   content "\2605"
 
 .education-degree
   color header-color
+
+.software-column
+  columns 2
+  column-width 550px
+
+.software-column_points
+  display inline-block
+  height 45px
+  background-color points-base-color
+  width 555px
+
+.software-column_points_colored_504
+  rect()
+  width 504px
+
+.software-column_points_colored_390
+  rect()
+  width 390px
+.software-column_points_colored_311
+  rect()
+  width 311px
+.software-column_points_colored_458
+  rect()
+  width 458px
+
+.software-column_points_colored_342
+  rect()
+  width 342px

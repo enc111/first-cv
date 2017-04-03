@@ -1,0 +1,9 @@
+mixin skill(n)
+    -var skillPoints = 12;
+    -var numb = skillPoints;
+    div.skill
+        while skillPoints--
+            if skillPoints < numb - n
+                span.skills-points
+            else
+                span.skills-points-colored

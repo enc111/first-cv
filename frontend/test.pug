@@ -2,6 +2,8 @@ doctype html
 head
     title cv
 body
+    include mixins/skill
+    include mixins/softwarePoints
     div.column
         div.big-circle
 
@@ -37,14 +39,6 @@ body
 
         div.skills
             h1 SKILLS
-            mixin skill(n)
-                -var skillPoints = 12;
-                div.skill
-                    while skillPoints--
-                        if skillPoints < 12 - n
-                            span.skills-points
-                        else
-                            span.skills-points-colored
             div.skills-creative
                 h2 CREATIVE
                 +skill(9)
@@ -110,15 +104,22 @@ body
         div.software
             h1 SOFTWARE
             div.software-column
-                div
+
+                div.software-column__photoshop
                     h2 PHOTOSHOP
-                div
+                    +softwarePoints(504)
+                div.software-column__illustrator
                     h2 ILLUSTRATOR
-                div
+                    +softwarePoints(390)
+                div.software-column__indesign
                     h2 INDESIGN
-                div
+                    +softwarePoints(311)
+                div.software-column__dreamweaver
                     h2 DREAMWEAVER
-                div
+                    +softwarePoints(458)
+                div.software-column__after-effects
                     h2 AFTER EFFECTS
-                div
+                    +softwarePoints(342)
+                div.software-column__html5css3
                     h2 HTML&CSS3
+                    +softwarePoints(504)
