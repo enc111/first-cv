@@ -12,11 +12,6 @@ circle(n, color)
   border-radius 50%
   background-color color
 
-rect()
-  display inline-block
-  height 45px
-  background-color header-color
-
 body
   font-family MyriadPro
   width 2480px
@@ -75,11 +70,16 @@ li span:first-child
   font-weight bold
 
 .column
+  -webkit-columns 2
+  -moz-columns 2
   columns 2
-  //column-width 525px
+  //column-width 725px
+  -webkit-column-gap 153px
+  -moz-column-gap 153px
   column-gap 153px
   margin-left 125px
   margin-right 115px
+  margin-bottom 190px
 
 .name-inf
   border-collapse collapse
@@ -148,28 +148,18 @@ li span:first-child
 
 .software-column
   columns 2
-  column-width 550px
+  -webkit-column-gap 140px
+  -moz-column-gap 140px
+  //column-width 550px
 
 .software-column_points
+.software-column_points_colored
   display inline-block
   height 45px
+
+.software-column_points
   background-color points-base-color
   width 555px
 
-.software-column_points_colored_504
-  rect()
-  width 504px
-
-.software-column_points_colored_390
-  rect()
-  width 390px
-.software-column_points_colored_311
-  rect()
-  width 311px
-.software-column_points_colored_458
-  rect()
-  width 458px
-
-.software-column_points_colored_342
-  rect()
-  width 342px
+.software-column_points_colored
+  background-color header-color
