@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 11);
+/******/ 	return __webpack_require__(__webpack_require__.s = 13);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -76,7 +76,7 @@
 var content = __webpack_require__(3);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
-var update = __webpack_require__(8)(content, {});
+var update = __webpack_require__(10)(content, {});
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -229,8 +229,8 @@ function fromByteArray (uint8) {
 
 
 var base64 = __webpack_require__(1)
-var ieee754 = __webpack_require__(6)
-var isArray = __webpack_require__(7)
+var ieee754 = __webpack_require__(8)
+var isArray = __webpack_require__(9)
 
 exports.Buffer = Buffer
 exports.SlowBuffer = SlowBuffer
@@ -2008,7 +2008,7 @@ function isnan (val) {
   return val !== val // eslint-disable-line no-self-compare
 }
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(10)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(12)))
 
 /***/ }),
 /* 3 */
@@ -2019,7 +2019,7 @@ exports = module.exports = __webpack_require__(4)(undefined);
 
 
 // module
-exports.push([module.i, "@font-face {\n  font-family: MyriadPro;\n  src: url(" + __webpack_require__(5) + ");\n}\nbody {\n  font-family: MyriadPro;\n  width: 2480px;\n  height: 3508px;\n}\nh1 {\n  font-size: 82px;\n  color: #3d6cb0;\n  display: flex;\n  align-items: center;\n  line-height: 130px;\n}\nh1::before {\n  content: \"\";\n  display: inline-block;\n  color: #fff;\n  font-size: 130px;\n  text-align: center;\n  width: 130px;\n  height: 130px;\n  border-radius: 50%;\n  background-color: #3f6fb6;\n  box-shadow: 0 0 0 7px #fff, 0 0 0 9px #3f6fb6;\n  margin-right: 26px;\n}\nh1::after {\n  content: '';\n  display: inline-block;\n  height: 10px;\n  flex-grow: 1;\n  background-color: #3d6cb0;\n}\nh2,\nli span {\n  font-size: 51px;\n  font-weight: normal;\n}\nul {\n  list-style: none;\n}\nli::before {\n  content: '';\n  display: inline-block;\n  width: 40px;\n  height: 40px;\n  border-radius: 50%;\n  background-color: #000;\n  margin-right: 45px;\n}\n.big-circle {\n  margin-top: 176px;\n  margin-left: 320px;\n  width: 405px;\n  height: 405px;\n  border-radius: 50%;\n  background-color: #3d6cb0;\n  box-shadow: 0 0 0 28px #fff, 0 0 0 30px #3d6cb0;\n}\np {\n  font-size: 31px;\n}\nli span:first-child {\n  font-weight: bold;\n}\n.column {\n  -webkit-columns: 2;\n  -moz-columns: 2;\n  columns: 2;\n  -webkit-column-gap: 153px;\n  -moz-column-gap: 153px;\n  column-gap: 153px;\n  margin-left: 125px;\n  margin-right: 115px;\n  margin-bottom: 190px;\n}\n.name-inf {\n  border-collapse: collapse;\n  margin-top: 75px;\n  margin-left: 275px;\n}\n.name-inf.tr {\n  height: 104px;\n  border-width: 0;\n}\n.name-inf.td {\n  border-width: 0;\n  line-height: 0;\n  font-weight: normal;\n}\n.name-inf-name {\n  font-size: 104px;\n}\n.name-inf-surname {\n  font-weight: bold;\n  font-size: 123px;\n}\n.name-inf-prof-name {\n  font-size: 50px;\n  font-weight: bold;\n}\n.name-inf-prof-name {\n  text-align: center;\n}\n.profile-bold {\n  font-weight: bold;\n}\n.contact h1::before {\n  content: \"\\1F4DE\";\n}\n.contact-tab {\n  font-size: 41px;\n  text-align: left;\n}\n.contact-tab th {\n  color: #3d6cb0;\n  font-weight: bold;\n}\n.contact-tab td {\n  padding-left: 50px;\n}\n.skills {\n  text-align: center;\n}\n.skills-points,\n.skills-points-colored {\n  display: inline-block;\n  margin-right: 20px;\n}\n.skills-points {\n  width: 35px;\n  height: 35px;\n  border-radius: 50%;\n  background-color: #e6e6e6;\n}\n.skills-points-colored {\n  width: 35px;\n  height: 35px;\n  border-radius: 50%;\n  background-color: #3d6cb0;\n}\n.education h1::before {\n  content: \"\\2605\";\n}\n.education-degree {\n  color: #3d6cb0;\n}\n.software-column {\n  columns: 2;\n  -webkit-column-gap: 140px;\n  -moz-column-gap: 140px;\n}\n.software-column_points,\n.software-column_points_colored {\n  display: inline-block;\n  height: 45px;\n}\n.software-column_points {\n  background-color: #e6e6e6;\n  width: 555px;\n}\n.software-column_points_colored {\n  background-color: #3d6cb0;\n}\n", ""]);
+exports.push([module.i, "@font-face {\n  font-family: MyriadPro;\n  src: url(" + __webpack_require__(6) + ");\n  src: url(" + __webpack_require__(7) + ");\n  src: url(" + __webpack_require__(5) + ");\n}\nbody {\n  font-family: MyriadPro;\n  width: 2480px;\n  height: 3508px;\n}\nh1 {\n  font-size: 82px;\n  color: #3d6cb0;\n  display: flex;\n  align-items: center;\n  line-height: 130px;\n}\nh1::before {\n  content: \"\";\n  display: inline-block;\n  color: #fff;\n  font-size: 130px;\n  text-align: center;\n  width: 130px;\n  height: 130px;\n  border-radius: 50%;\n  background-color: #3f6fb6;\n  box-shadow: 0 0 0 7px #fff, 0 0 0 9px #3f6fb6;\n  margin-right: 26px;\n}\nh1::after {\n  content: '';\n  display: inline-block;\n  height: 10px;\n  flex-grow: 1;\n  background-color: #3d6cb0;\n}\nh2,\nli span {\n  font-size: 51px;\n  font-weight: normal;\n}\nul {\n  list-style: none;\n}\nli::before {\n  content: '';\n  display: inline-block;\n  width: 40px;\n  height: 40px;\n  border-radius: 50%;\n  background-color: #000;\n  margin-right: 45px;\n}\n.big-circle {\n  margin-top: 176px;\n  margin-left: 320px;\n  width: 405px;\n  height: 405px;\n  border-radius: 50%;\n  background-color: #3d6cb0;\n  box-shadow: 0 0 0 28px #fff, 0 0 0 30px #3d6cb0;\n}\np {\n  font-size: 31px;\n}\nli span:first-child {\n  font-weight: bold;\n}\n.column {\n  -webkit-columns: 2;\n  -moz-columns: 2;\n  columns: 2;\n  -webkit-column-gap: 153px;\n  -moz-column-gap: 153px;\n  column-gap: 153px;\n  margin-left: 125px;\n  margin-right: 115px;\n  margin-bottom: 190px;\n}\n.name-inf {\n  border-collapse: collapse;\n  margin-top: 75px;\n  margin-left: 275px;\n}\n.name-inf.tr {\n  height: 104px;\n  border-width: 0;\n}\n.name-inf.td {\n  border-width: 0;\n  line-height: 0;\n  font-weight: normal;\n}\n.name-inf-name {\n  font-size: 104px;\n}\n.name-inf-surname {\n  font-weight: bold;\n  font-size: 123px;\n}\n.name-inf-prof-name {\n  font-size: 50px;\n  font-weight: bold;\n}\n.name-inf-prof-name {\n  text-align: center;\n}\n.profile-bold {\n  font-weight: bold;\n}\n.contact h1::before {\n  content: \"\\1F4DE\";\n}\n.contact-tab {\n  font-size: 41px;\n  text-align: left;\n}\n.contact-tab th {\n  color: #3d6cb0;\n  font-weight: bold;\n}\n.contact-tab td {\n  padding-left: 50px;\n}\n.skills {\n  text-align: center;\n}\n.skills-points,\n.skills-points-colored {\n  display: inline-block;\n  margin-right: 20px;\n}\n.skills-points {\n  width: 35px;\n  height: 35px;\n  border-radius: 50%;\n  background-color: #e6e6e6;\n}\n.skills-points-colored {\n  width: 35px;\n  height: 35px;\n  border-radius: 50%;\n  background-color: #3d6cb0;\n}\n.education h1::before {\n  content: \"\\2605\";\n}\n.education-degree {\n  color: #3d6cb0;\n}\n.software-column {\n  columns: 2;\n  -webkit-column-gap: 140px;\n  -moz-column-gap: 140px;\n}\n.software-column_points,\n.software-column_points_colored {\n  display: inline-block;\n  height: 45px;\n}\n.software-column_points {\n  background-color: #e6e6e6;\n  width: 555px;\n}\n.software-column_points_colored {\n  background-color: #3d6cb0;\n}\n", ""]);
 
 // exports
 
@@ -2110,10 +2110,22 @@ function toComment(sourceMap) {
 /* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "MyriadProRegular.ttf";
+module.exports = __webpack_require__.p + "MyriadProRegular.svg";
 
 /***/ }),
 /* 6 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "MyriadProRegular.ttf";
+
+/***/ }),
+/* 7 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "MyriadProRegular.woff";
+
+/***/ }),
+/* 8 */
 /***/ (function(module, exports) {
 
 exports.read = function (buffer, offset, isLE, mLen, nBytes) {
@@ -2203,7 +2215,7 @@ exports.write = function (buffer, value, offset, isLE, mLen, nBytes) {
 
 
 /***/ }),
-/* 7 */
+/* 9 */
 /***/ (function(module, exports) {
 
 var toString = {}.toString;
@@ -2214,7 +2226,7 @@ module.exports = Array.isArray || function (arr) {
 
 
 /***/ }),
-/* 8 */
+/* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -2251,7 +2263,7 @@ var stylesInDom = {},
 	singletonElement = null,
 	singletonCounter = 0,
 	styleElementsInsertedAtTop = [],
-	fixUrls = __webpack_require__(9);
+	fixUrls = __webpack_require__(11);
 
 module.exports = function(list, options) {
 	if(typeof DEBUG !== "undefined" && DEBUG) {
@@ -2510,7 +2522,7 @@ function updateLink(linkElement, options, obj) {
 
 
 /***/ }),
-/* 9 */
+/* 11 */
 /***/ (function(module, exports) {
 
 
@@ -2605,7 +2617,7 @@ module.exports = function (css) {
 
 
 /***/ }),
-/* 10 */
+/* 12 */
 /***/ (function(module, exports) {
 
 var g;
@@ -2632,7 +2644,7 @@ module.exports = g;
 
 
 /***/ }),
-/* 11 */
+/* 13 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
