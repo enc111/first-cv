@@ -2,6 +2,7 @@
 
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+let ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
         context: __dirname + '/frontend',
@@ -24,7 +25,8 @@ module.exports = {
             new HtmlWebpackPlugin({
                 filename: 'index.html',
                 template: 'test.pug'
-            })
+            }),
+            new ExtractTextPlugin('styles.css')
         ],
 
         resolve: {
@@ -46,11 +48,11 @@ module.exports = {
                 },
                 {
                     test: /\.styl$/,
-                    loader: 'style-loader!css-loader!stylus-loader'
+                    loader: ExtractTextPlugin.extract({fallback: 'style-loader', use: 'css-loader!stylus-loader'})
                 },
                 {
                     test: /\.(css|png|jpg|svg|ttf|eot|woff|woff2)$/,
-                    loader: 'file-loader?name=[name].[ext]'
+                    loader: 'file-loader?name=[path][name].[ext]'
                 }]
         }
     };

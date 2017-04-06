@@ -8,7 +8,8 @@
 5. sylus-loader;
 6. stylus;
 7. file-loader;
-8. css-loader.
+8. css-loader;
+9. extract-text-webpack-plugin.
 
 # Структура
 /fontend - папка с исходным кодом;
