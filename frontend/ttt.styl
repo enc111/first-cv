@@ -32,9 +32,9 @@ h1::before
   color #ffffff
   font-size 130px
   text-align center
-  circle 130px header-circles-color
-  box-shadow 0 0 0 7px #ffffff,
-    0 0 0 9px header-circles-color
+  circle 148px header-circles-color
+  box-shadow inset 0 0 0 1px header-circles-color,
+    inset 0 0 0 8px #ffffff
   margin-right 26px
 
 h1::after
@@ -61,9 +61,9 @@ li::before
 .big-circle
   margin-top 176px
   margin-left 320px
-  circle 405px header-color
-  box-shadow 0 0 0 28px #ffffff,
-    0 0 0 30px header-color
+  circle 465px header-color
+  box-shadow inset 0 0 0 2px header-color,
+    inset 0 0 0 30px #ffffff
 
 p
     font-size 31px
@@ -72,12 +72,7 @@ li span:first-child
   font-weight bold
 
 .column
-  -webkit-columns 2
-  -moz-columns 2
-  columns 2
-  -webkit-column-gap 153px
-  -moz-column-gap 153px
-  column-gap 153px
+  //column-gap 153px
   margin-left 125px
   margin-right 115px
   margin-bottom 190px
@@ -110,6 +105,17 @@ li span:first-child
 .name-inf-prof-name
   text-align center
 
+.pofile
+.contact
+.skills
+  width 828px
+  //float left
+
+.education
+.experience
+.software
+  width 1264px
+
 .profile-bold
   font-weight bold
 
@@ -127,7 +133,7 @@ li span:first-child
 .contact-tab td
   padding-left 50px
 
-.skills
+.skills div
   text-align center
 
 .skills-points
