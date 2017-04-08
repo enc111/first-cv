@@ -4,120 +4,121 @@ head
 body
     include mixins/skill
     include mixins/softwarePoints
-    div.column
-        div.big-circle
-        table.name-inf
-            tr
-                td.name-inf-name NAME HERE
-
-            tr
-                td.name-inf-surname SURNAME
-
-            tr
-                td.name-inf-prof-name GRAPHIC DESIGNER
-
-        div.pofile
-            h1 PROFILE
-            p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu <span class="profile-bold">pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.</span>
-
-        div.contact
-            h1 CONTACT
-            table.contact-tab
+    div.column.clearfix
+        div.column-1
+            div.big-circle
+            table.name-inf
                 tr
-                    th ADDRESS
-                    td Main Street, City.
+                    td.name-inf-name NAME HERE
+
                 tr
-                    th E-MAIL
-                    td contact@domain.com
+                    td.name-inf-surname SURNAME
+
                 tr
-                    th PHONE
-                    td 555-555-555
-                tr
-                    th WEBSITE
-                    td www.yourweb.com
+                    td.name-inf-prof-name GRAPHIC DESIGNER
 
-        div.skills
-            h1 SKILLS
-            div.skills-creative
-                h2 CREATIVE
-                +skill(9)
-            div.skills-teamwork
-                h2 TEAMWORK
-                +skill(11)
-            div.skills-innovate
-                h2 INNOVATE
-                +skill(6)
-            div.skills-communication
-                h2 COMMUNICATION
-                +skill(11)
+            div.pofile
+                h1 PROFILE
+                p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu <span class="profile-bold">pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.</span>
 
-        div.education
-            h1 EDUCATION
-            ul
-                li
-                    span.education-degree MASTER DEGREE
-                    span.education-period  // Feb 2011 - Jun 2014
-                    h2 UNIVERSITY NAME
-                    p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
+            div.contact
+                h1 CONTACT
+                table.contact-tab
+                    tr
+                        th ADDRESS
+                        td Main Street, City.
+                    tr
+                        th E-MAIL
+                        td contact@domain.com
+                    tr
+                        th PHONE
+                        td 555-555-555
+                    tr
+                        th WEBSITE
+                        td www.yourweb.com
 
-                li
-                    span.education-degree MASTER DEGREE
-                    span.education-period  // Feb 2011 - Jun 2014
-                    h2 UNIVERSITY NAME
-                    p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
+            div.skills
+                h1 SKILLS
+                div.skills-creative
+                    h2 CREATIVE
+                    +skill(9)
+                div.skills-teamwork
+                    h2 TEAMWORK
+                    +skill(11)
+                div.skills-innovate
+                    h2 INNOVATE
+                    +skill(6)
+                div.skills-communication
+                    h2 COMMUNICATION
+                    +skill(11)
 
-                li
-                    span.education-degree MASTER DEGREE
-                    span.education-period  // Feb 2011 - Jun 2014
-                    h2 UNIVERSITY NAME
-                    p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
+        div.column-2
+            div.education
+                h1 EDUCATION
+                ul
+                    li
+                        span.education-degree MASTER DEGREE
+                        span.education-period  // Feb 2011 - Jun 2014
+                        h2 UNIVERSITY NAME
+                        p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
 
-                li
-                    span.education-degree MASTER DEGREE
-                    span.education-period  // Feb 2011 - Jun 2014
-                    h2 UNIVERSITY NAME
-                    p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
+                    li
+                        span.education-degree MASTER DEGREE
+                        span.education-period  // Feb 2011 - Jun 2014
+                        h2 UNIVERSITY NAME
+                        p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
 
-        div.experience
-            h1 EXPERIENCE
-            ul
-                li
-                    span.experience-company COMPANY NAME
-                    span.experience-period  // Feb 2011 - Jun 2014
-                    h2 YOUR JOB HERE
-                    p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
+                    li
+                        span.education-degree MASTER DEGREE
+                        span.education-period  // Feb 2011 - Jun 2014
+                        h2 UNIVERSITY NAME
+                        p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
 
-                li
-                    span.experience-company COMPANY NAME
-                    span.experience-period  // Feb 2011 - Jun 2014
-                    h2 YOUR JOB HERE
-                    p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
+                    li
+                        span.education-degree MASTER DEGREE
+                        span.education-period  // Feb 2011 - Jun 2014
+                        h2 UNIVERSITY NAME
+                        p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
 
-                li
-                    span.experience-company COMPANY NAME
-                    span.experience-period  // Feb 2011 - Jun 2014
-                    h2 YOUR JOB HERE
-                    p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
+            div.experience
+                h1 EXPERIENCE
+                ul
+                    li
+                        span.experience-company COMPANY NAME
+                        span.experience-period  // Feb 2011 - Jun 2014
+                        h2 YOUR JOB HERE
+                        p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
 
+                    li
+                        span.experience-company COMPANY NAME
+                        span.experience-period  // Feb 2011 - Jun 2014
+                        h2 YOUR JOB HERE
+                        p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
 
-        div.software
-            h1 SOFTWARE
-            div.software-column
-                div.software-column__photoshop
-                    h2 PHOTOSHOP
-                    +softwarePoints(504)
-                div.software-column__illustrator
-                    h2 ILLUSTRATOR
-                    +softwarePoints(390)
-                div.software-column__indesign
-                    h2 INDESIGN
-                    +softwarePoints(311)
-                div.software-column__dreamweaver
-                    h2 DREAMWEAVER
-                    +softwarePoints(458)
-                div.software-column__after-effects
-                    h2 AFTER EFFECTS
-                    +softwarePoints(342)
-                div.software-column__html5css3
-                    h2 HTML&CSS3
-                    +softwarePoints(504)
+                    li
+                        span.experience-company COMPANY NAME
+                        span.experience-period  // Feb 2011 - Jun 2014
+                        h2 YOUR JOB HERE
+                        p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
+
+            div.software
+                h1 SOFTWARE
+                div.software-column
+                    div.software-column__photoshop
+                        h2 PHOTOSHOP
+                        +softwarePoints(504)
+                    div.software-column__illustrator
+                        h2 ILLUSTRATOR
+                        +softwarePoints(390)
+                    div.software-column__indesign
+                        h2 INDESIGN
+                        +softwarePoints(311)
+                    div.software-column__dreamweaver
+                        h2 DREAMWEAVER
+                        +softwarePoints(458)
+                    div.software-column__after-effects
+                        h2 AFTER EFFECTS
+                        +softwarePoints(342)
+                    div.software-column__html5css3
+                        h2 HTML&CSS3
+                        +softwarePoints(504)
