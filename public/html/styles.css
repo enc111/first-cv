@@ -60,8 +60,9 @@ li span:first-child {
 }
 .column {
   margin: 153px 115px 190px 125px;
+  background: #808080;
 }
-.clearfix::after {
+.column::after {
   content: "";
   display: block;
   clear: both;
