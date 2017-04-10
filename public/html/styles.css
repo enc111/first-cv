@@ -41,9 +41,16 @@ h2,
 li span {
   font-size: 51px;
   font-weight: normal;
+  margin: 0;
 }
 ul {
   list-style: none;
+  padding: 0;
+  margin: 60px 0 0 25px;
+}
+li p,
+li h2 {
+  margin-left: 80px;
 }
 li::before {
   content: '';
@@ -135,13 +142,17 @@ li span:first-child {
 .contact-tab {
   font-size: 41px;
   text-align: left;
+  padding: 0;
+  margin: 55px 0 15px 0;
 }
 .contact-tab th {
   color: #3d6cb0;
   font-weight: bold;
+  padding-bottom: 75px;
 }
 .contact-tab td {
-  padding-left: 50px;
+  padding-left: 60px;
+  padding-bottom: 65px;
 }
 .skills div {
   text-align: center;
@@ -169,10 +180,11 @@ li span:first-child {
 .education-degree {
   color: #3d6cb0;
 }
-.software-column {
-  columns: 2;
-  -webkit-column-gap: 140px;
-  -moz-column-gap: 140px;
+.software-column-1 {
+  float: left;
+}
+.software-column-2 {
+  float: right;
 }
 .software-column_points,
 .software-column_points_colored {
