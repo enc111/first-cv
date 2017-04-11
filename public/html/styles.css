@@ -2,6 +2,10 @@
   font-family: MyriadPro;
   src: url(fonts/MyriadProRegular.ttf), url(fonts/MyriadProRegular.woff), url(fonts/MyriadProRegular.svg);
 }
+@font-face {
+  font-family: MyriadProBold;
+  src: url(fonts/MyriadProBold.ttf);
+}
 body {
   font-family: MyriadPro;
   width: 2480px;
@@ -9,6 +13,8 @@ body {
 }
 h1 {
   font-size: 82px;
+  font-family: MyriadProBold;
+  font-weight: bold;
   color: #3d6cb0;
   display: flex;
   align-items: center;
@@ -20,15 +26,15 @@ h1::before {
   display: inline-block;
   color: #fff;
   font-size: 130px;
-  line-height: 148px;
+  line-height: 145px;
   text-align: center;
-  width: 148px;
-  height: 148px;
+  width: 145px;
+  height: 145px;
   border-radius: 50%;
   background-color: #3f6fb6;
   box-shadow: inset 0 0 0 1px #3f6fb6, inset 0 0 0 8px #fff;
   margin: 0;
-  margin-right: 26px;
+  margin-right: 21px;
 }
 h1::after {
   content: '';
@@ -67,6 +73,7 @@ p {
   margin: 0;
 }
 li span:first-child {
+  font-family: MyriadProBold;
   font-weight: bold;
 }
 .column {
@@ -113,29 +120,39 @@ li span:first-child {
   padding: 0;
 }
 .name-inf-name {
-  font-size: 104px;
+  font-size: 106px;
   line-height: 104px;
   padding: 0;
 }
 .name-inf-surname {
+  font-family: MyriadProBold;
   font-weight: bold;
   font-size: 123px;
-  line-height: 123px;
+  line-height: 118px;
 }
 .name-inf-prof-name {
   font-size: 50px;
+  font-family: MyriadProBold;
   font-weight: bold;
   text-align: center;
 }
 .profile-bold {
+  font-family: MyriadProBold;
   font-weight: bold;
 }
 .profile_text {
   padding: 0;
   margin: 15px 0 95px 0;
+  line-height: 37px;
+}
+.pofile h1::after {
+  margin-left: 20px;
 }
 .contact h1::before {
   content: "\1F4DE";
+}
+.contact h1::after {
+  margin-left: 15px;
 }
 .contact-tab {
   font-size: 41px;
@@ -145,8 +162,9 @@ li span:first-child {
 }
 .contact-tab th {
   color: #3d6cb0;
+  font-family: MyriadProBold;
   font-weight: bold;
-  padding-bottom: 75px;
+  padding-bottom: 60px;
 }
 .contact-tab td {
   padding-left: 60px;
@@ -172,15 +190,27 @@ li span:first-child {
   border-radius: 50%;
   background-color: #3d6cb0;
 }
+.skills h1::after {
+  margin-left: 30px;
+}
 .education h1::before {
   content: "\2605";
 }
 .education-degree {
   color: #3d6cb0;
 }
+.education h1::after {
+  margin-left: 24px;
+}
 .experience ul {
   margin-top: 90px;
   margin-bottom: 100px;
+}
+.experience h1::after {
+  margin-left: 10px;
+}
+.software h1::after {
+  margin-left: 51px;
 }
 .software-column-1 {
   float: left;
