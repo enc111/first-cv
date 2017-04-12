@@ -18,7 +18,7 @@ h1 {
   color: #3d6cb0;
   display: flex;
   align-items: center;
-  line-height: 130px;
+  line-height: 145px;
   margin: 0;
 }
 h1::before {
@@ -27,6 +27,7 @@ h1::before {
   color: #fff;
   font-size: 130px;
   line-height: 145px;
+  padding: auto 0;
   text-align: center;
   width: 145px;
   height: 145px;
@@ -105,7 +106,7 @@ li span:first-child {
 }
 .name-inf {
   border-collapse: collapse;
-  margin: 55px 0 160px 150px;
+  margin: 55px 0 148px 150px;
   padding: 0;
 }
 .name-inf.tr {
@@ -128,13 +129,14 @@ li span:first-child {
   font-family: MyriadProBold;
   font-weight: bold;
   font-size: 123px;
-  line-height: 118px;
+  line-height: 110px;
 }
 .name-inf-prof-name {
   font-size: 50px;
   font-family: MyriadProBold;
   font-weight: bold;
   text-align: center;
+  padding-top: 18px;
 }
 .profile-bold {
   font-family: MyriadProBold;
@@ -142,7 +144,7 @@ li span:first-child {
 }
 .profile_text {
   padding: 0;
-  margin: 15px 0 95px 0;
+  margin: 23px 0 90px 0;
   line-height: 37px;
 }
 .pofile h1::after {
@@ -158,25 +160,28 @@ li span:first-child {
   font-size: 41px;
   text-align: left;
   padding: 0;
-  margin: 55px 0 15px 0;
+  margin: 50px 0 15px 0;
 }
 .contact-tab th {
   color: #3d6cb0;
   font-family: MyriadProBold;
   font-weight: bold;
-  padding-bottom: 60px;
+  padding-bottom: 55px;
 }
 .contact-tab td {
-  padding-left: 60px;
-  padding-bottom: 65px;
+  padding-left: 55px;
+  padding-bottom: 55px;
 }
 .skills div {
   text-align: center;
 }
+.skills h1 {
+  margin-bottom: 50px;
+}
 .skills-points,
 .skills-points-colored {
   display: inline-block;
-  margin-right: 20px;
+  margin: 10px 20px 45px 0;
 }
 .skills-points {
   width: 35px;
@@ -191,7 +196,7 @@ li span:first-child {
   background-color: #3d6cb0;
 }
 .skills h1::after {
-  margin-left: 30px;
+  margin-left: 27px;
 }
 .education h1::before {
   content: "\2605";
@@ -212,6 +217,9 @@ li span:first-child {
 .software h1::after {
   margin-left: 51px;
 }
+.software h1 {
+  margin-bottom: 50px;
+}
 .software-column-1 {
   float: left;
   padding: 0;
@@ -228,6 +236,7 @@ li span:first-child {
 .software-column_points {
   background-color: #e6e6e6;
   width: 555px;
+  margin: 25px 0 50px 0;
 }
 .software-column_points_colored {
   background-color: #3d6cb0;
