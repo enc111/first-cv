@@ -60,6 +60,12 @@ li p,
 li h2 {
   margin-left: 80px;
 }
+li h2 {
+  margin-bottom: 10px;
+}
+li p {
+  margin-bottom: 20px;
+}
 li::before {
   content: '';
   display: inline-block;
@@ -78,7 +84,7 @@ li span:first-child {
   font-weight: bold;
 }
 .column {
-  margin: 153px 115px 190px 110px;
+  margin: 153px 125px 190px 110px;
 }
 .software::after,
 .column::after {
@@ -148,7 +154,7 @@ li span:first-child {
   line-height: 37px;
 }
 .pofile h1::after {
-  margin-left: 20px;
+  margin-left: 17px;
 }
 .contact h1::before {
   content: "\1F4DE";
@@ -160,7 +166,7 @@ li span:first-child {
   font-size: 41px;
   text-align: left;
   padding: 0;
-  margin: 50px 0 15px 0;
+  margin: 50px 0 35px 0;
 }
 .contact-tab th {
   color: #3d6cb0;
@@ -169,7 +175,7 @@ li span:first-child {
   padding-bottom: 55px;
 }
 .contact-tab td {
-  padding-left: 55px;
+  padding-left: 70px;
   padding-bottom: 55px;
 }
 .skills div {
@@ -181,7 +187,7 @@ li span:first-child {
 .skills-points,
 .skills-points-colored {
   display: inline-block;
-  margin: 10px 20px 45px 0;
+  margin: 15px 14px 35px 0;
 }
 .skills-points {
   width: 35px;
@@ -236,7 +242,7 @@ li span:first-child {
 .software-column_points {
   background-color: #e6e6e6;
   width: 555px;
-  margin: 25px 0 50px 0;
+  margin: 25px 0 45px 0;
 }
 .software-column_points_colored {
   background-color: #3d6cb0;
