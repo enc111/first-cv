@@ -24,7 +24,7 @@ font-weight-bold()
 
 body
   font-family MyriadPro
-  width 2480px
+  //width 2480px
   height 3508px
 
 h1
@@ -103,16 +103,29 @@ li span:first-child
   clear both
   visibility hidden
   height 0
+@media only screen and (min-width: 2400px)
+  body
+    width 2480px
 
-.column-1
-  width 828px
-  float left
-  //background rgba(200, 10, 10, 0.5)
+  .column-1
+    width 828px
+    float left
 
-.column-2
-  width 1264px
-  float right
-  //background rgba(10, 10, 200, 0.5)
+  .column-2
+    width 1264px
+    float right
+
+@media only screen and (min-width:1200px) and (max-width: 2399px)
+ body
+    width 100%
+
+  .column-1
+    width 828px
+    float none
+
+  .column-2
+    width 1264px
+    float none
 
 .big-circle
   margin 28px 0 0 195px
