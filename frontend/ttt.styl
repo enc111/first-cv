@@ -23,17 +23,16 @@ font-weight-bold()
   font-weight bold
 
 body
-  font-family MyriadPro
-  //width 2480px
-  height 3508px
+  font-family MyriadPro //width 2480px
+  //height 3508px
 
 h1
-  font-size 82px
+  font-size 2.65rem
   font-weight-bold()
   color header-color
   display flex
   align-items center
-  line-height 145px
+  line-height 1.77rem
   margin 0
   //margin-bottom 15px
 
@@ -41,11 +40,11 @@ h1::before
   content ""
   display inline-block
   color #ffffff
-  font-size 130px
-  line-height 145px
+  font-size 4.19rem
+  //line-height 145px
   padding auto 0
   text-align center
-  circle 145px header-circles-color
+  circle 6rem header-circles-color
   box-shadow inset 0 0 0 1px header-circles-color,
     inset 0 0 0 8px #ffffff
   margin 0
@@ -61,7 +60,7 @@ h1::after
 
 h2
 li span
-  font-size 51px
+  font-size 1.65rem
   font-weight normal
   margin 0
 
@@ -87,14 +86,14 @@ li::before
   margin-right 45px
 
 p
-  font-size 31px
+  font-size 1rem
   margin 0
 
 li span:first-child
   font-weight-bold()
 
 .column
-  margin 153px 125px 190px 110px
+  margin 4.3% 4.6% 5.5% 5%
 
 .software::after
 .column::after
@@ -103,33 +102,42 @@ li span:first-child
   clear both
   visibility hidden
   height 0
-@media only screen and (min-width: 2400px)
-  body
-    width 2480px
 
+//@media only screen and (min-width: 1280px)
+//  body
+//    width 1280px
+//  .column-1
+//    float left
+//  .column-2
+//    float right
+
+@media only screen and (min-width: 1280px)
+  html
+    font-size 17px
+    width 100%
+  .column
+    width 90.6%
+    //margin 4.3% 4.6% 5.5% 5%
   .column-1
-    width 828px
+    width 36.93%
     float left
-
   .column-2
-    width 1264px
+    width 56.38%
     float right
 
-@media only screen and (min-width:1200px) and (max-width: 2399px)
- body
+
+@media only screen and (min-width:800px)
+ html
+    width 100%
+  .column-1
+  .column-2
+    float none
     width 100%
 
-  .column-1
-    width 828px
-    float none
-
-  .column-2
-    width 1264px
-    float none
 
 .big-circle
-  margin 28px 0 0 195px
-  circle 465px header-color
+  margin 2.8px 0 0 19.5px//margin 28px 0 0 195px
+  circle 56% header-color
   box-shadow inset 0 0 0 2px header-color,
     inset 0 0 0 30px #ffffff
 
@@ -137,6 +145,7 @@ li span:first-child
   border-collapse collapse
   margin 55px 0 148px 150px
   padding 0
+  //width 100%
 
 .name-inf.tr
   border-width 0
@@ -150,17 +159,17 @@ li span:first-child
   padding 0
 
 .name-inf-name
-  font-size 106px
-  line-height 104px
+  font-size 3.42rem
+  //line-height 104px
   padding 0
 
 .name-inf-surname
   font-weight-bold()
-  font-size 123px
-  line-height 110px
+  font-size 3.27rem
+  //line-height 110px
 
 .name-inf-prof-name
-  font-size 50px
+  font-size 1.61rem
   font-weight-bold()
   text-align center
   padding-top 18px
@@ -171,7 +180,7 @@ li span:first-child
 .profile_text
   padding 0
   margin 23px 0 90px 0
-  line-height 37px
+  //line-height 37px
 
 .pofile h1::after
   margin-left 17px
@@ -183,7 +192,7 @@ li span:first-child
   margin-left 15px
 
 .contact-tab
-  font-size 41px
+  font-size 1.32rem
   text-align left
   padding 0
   margin 50px 0 35px 0
@@ -242,10 +251,12 @@ li span:first-child
 .software-column-1
   float left
   padding 0
+  width 44%
 
 .software-column-2
   float right
   padding 0
+  width 44%
 
 .software-column_points
 .software-column_points_colored
@@ -254,7 +265,7 @@ li span:first-child
 
 .software-column_points
   background-color points-base-color
-  width 555px
+  width 100%
   margin 25px 0 45px 0
 
 .software-column_points_colored
