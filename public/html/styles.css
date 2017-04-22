@@ -11,7 +11,6 @@ body {
 }
 h1 {
   font-size: 2.65rem;
-  font-family: MyriadProBold;
   font-weight: bold;
   color: #3d6cb0;
   display: flex;
@@ -24,20 +23,21 @@ h1::before {
   display: inline-block;
   color: #fff;
   font-size: 4.19rem;
+  line-height: 4.68rem;
   padding: auto 0;
   text-align: center;
-  width: 6rem;
-  height: 6rem;
+  width: 4.68rem;
+  height: 4.68rem;
   border-radius: 50%;
   background-color: #3f6fb6;
-  box-shadow: inset 0 0 0 1px #3f6fb6, inset 0 0 0 8px #fff;
+  box-shadow: inset 0 0 0 1px #3f6fb6, inset 0 0 0 0.25rem #fff;
   margin: 0;
-  margin-right: 21px;
+  margin-right: 0.68rem;
 }
 h1::after {
   content: '';
   display: inline-block;
-  height: 10px;
+  height: 0.32rem;
   flex-grow: 1;
   background-color: #3d6cb0;
   margin: 0;
@@ -51,33 +51,32 @@ li span {
 ul {
   list-style: none;
   padding: 0;
-  margin: 55px 0 105px 25px;
+  margin: 1.77rem 0 3.39rem 0.806rem;
 }
 li p,
 li h2 {
-  margin-left: 80px;
+  margin-left: 2.58rem;
 }
 li h2 {
-  margin-bottom: 10px;
+  margin-bottom: 0.32rem;
 }
 li p {
-  margin-bottom: 20px;
+  margin-bottom: 0.645rem;
 }
 li::before {
   content: '';
   display: inline-block;
-  width: 40px;
-  height: 40px;
+  width: 1.29rem;
+  height: 1.29rem;
   border-radius: 50%;
   background-color: #000;
-  margin-right: 45px;
+  margin-right: 0.69rem;
 }
 p {
   font-size: 1rem;
   margin: 0;
 }
 li span:first-child {
-  font-family: MyriadProBold;
   font-weight: bold;
 }
 .column {
@@ -118,16 +117,16 @@ li span:first-child {
   }
 }
 .big-circle {
-  margin: 2.8px 0 0 19.5px;
-  width: 56%;
-  height: 56%;
+  margin: 3.38% 0 0 23.55%;
+  width: 15rem;
+  height: 15rem;
   border-radius: 50%;
   background-color: #3d6cb0;
-  box-shadow: inset 0 0 0 2px #3d6cb0, inset 0 0 0 30px #fff;
+  box-shadow: inset 0 0 0 1px #3d6cb0, inset 0 0 0 0.82rem #fff;
 }
 .name-inf {
   border-collapse: collapse;
-  margin: 55px 0 148px 150px;
+  margin: 1.77rem 0 4.77rem 4.84rem;
   padding: 0;
 }
 .name-inf.tr {
@@ -143,78 +142,77 @@ li span:first-child {
 }
 .name-inf-name {
   font-size: 3.42rem;
+  line-height: 3.35rem;
   padding: 0;
 }
 .name-inf-surname {
-  font-family: MyriadProBold;
   font-weight: bold;
   font-size: 3.27rem;
+  line-height: 3.55rem;
 }
 .name-inf-prof-name {
   font-size: 1.61rem;
-  font-family: MyriadProBold;
   font-weight: bold;
   text-align: center;
-  padding-top: 18px;
+  padding-top: 0.58rem;
 }
 .profile-bold {
-  font-family: MyriadProBold;
   font-weight: bold;
 }
 .profile_text {
   padding: 0;
-  margin: 23px 0 90px 0;
+  margin: 0.74rem 0 2.9rem 0;
+  line-height: 1.19rem;
 }
-.pofile h1::after {
-  margin-left: 17px;
+.profile h1::after {
+  margin-left: 0.55rem;
 }
 .contact h1::before {
   content: "\1F4DE";
 }
 .contact h1::after {
-  margin-left: 15px;
+  margin-left: 0.48rem;
 }
 .contact-tab {
   font-size: 1.32rem;
   text-align: left;
   padding: 0;
-  margin: 50px 0 35px 0;
+  margin: 1.61rem 0 1.13rem 0;
 }
 .contact-tab th {
   color: #3d6cb0;
-  font-family: MyriadProBold;
   font-weight: bold;
-  padding-bottom: 55px;
+  padding-bottom: 1.77rem;
 }
 .contact-tab td {
-  padding-left: 70px;
-  padding-bottom: 55px;
+  padding-left: 2.26rem;
+  padding-bottom: 1.77rem;
 }
 .skills div {
   text-align: center;
 }
 .skills h1 {
-  margin-bottom: 50px;
+  margin-bottom: 1.61rem;
 }
 .skills-points,
 .skills-points-colored {
   display: inline-block;
-  margin: 15px 14px 35px 0;
+  margin: 0.48rem 0.45rem 1.129rem 0;
 }
 .skills-points {
-  width: 35px;
-  height: 35px;
+  width: 1.129rem;
+  height: 1.129rem;
   border-radius: 50%;
   background-color: #e6e6e6;
 }
 .skills-points-colored {
-  width: 35px;
-  height: 35px;
+  width: 1.129rem;
+  height: 1.129rem;
   border-radius: 50%;
   background-color: #3d6cb0;
 }
 .skills h1::after {
-  margin-left: 27px;
+  margin-left: 0.87rem;
 }
 .education h1::before {
   content: "\2605";
@@ -223,20 +221,20 @@ li span:first-child {
   color: #3d6cb0;
 }
 .education h1::after {
-  margin-left: 24px;
+  margin-left: 0.77rem;
 }
 .experience ul {
-  margin-top: 90px;
-  margin-bottom: 100px;
+  margin-top: 2.9rem;
+  margin-bottom: 3.226rem;
 }
 .experience h1::after {
-  margin-left: 10px;
+  margin-left: 0.32rem;
 }
 .software h1::after {
-  margin-left: 51px;
+  margin-left: 1.645rem;
 }
 .software h1 {
-  margin-bottom: 50px;
+  margin-bottom: 1.61rem;
 }
 .software-column-1 {
   float: left;
@@ -251,12 +249,12 @@ li span:first-child {
 .software-column_points,
 .software-column_points_colored {
   display: inline-block;
-  height: 45px;
+  height: 1.45rem;
 }
 .software-column_points {
   background-color: #e6e6e6;
   width: 100%;
-  margin: 25px 0 45px 0;
+  margin: 0.806rem 0 1.45rem 0;
 }
 .software-column_points_colored {
   background-color: #3d6cb0;
