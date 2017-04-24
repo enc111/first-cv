@@ -100,17 +100,8 @@ li span:first-child
   visibility hidden
   height 0
 
-//@media only screen and (min-width: 1280px)
-//  body
-//    width 1280px
-//  .column-1
-//    float left
-//  .column-2
-//    float right
-
-@media only screen and (min-width: 1280px)
+@media only screen and (min-width: 801px) and (max-width: 1920px)
   html
-    font-size 17px
     width 100%
   .column
     width 90.6%
@@ -121,7 +112,20 @@ li span:first-child
     width 56.38%
     float right
 
-@media only screen and (min-width:800px)
+@media only screen and (min-width: 801px) and (max-width: 1023px)
+  html
+    font-size 16px
+
+@media only screen and (min-width: 1024px) and (max-width: 1400px)
+  html
+    font-size 17px
+
+@media only screen and (min-width: 1600px) and (max-width: 1920px)
+  html
+    font-size 21px
+
+
+@media only screen and (min-width: 320px) and (max-width: 800px)
  html
     width 100%
   .column-1
@@ -129,6 +133,13 @@ li span:first-child
     float none
     width 100%
 
+@media only screen and (min-width: 600px) and (max-width: 800px)
+ html
+    font-size 14px
+
+@media only screen and (min-width: 320px) and (max-width: 599px)
+ html
+    font-size 12px
 
 .big-circle
   margin 3.38% 0 0 23.55%
