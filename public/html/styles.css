@@ -121,7 +121,7 @@ li span:first-child {
     font-size: 21px;
   }
 }
-@media only screen and (min-width: 320px) and (max-width: 949px) {
+@media only screen and (max-width: 949px) {
   html {
     width: 100%;
   }
