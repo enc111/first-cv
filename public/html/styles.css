@@ -121,7 +121,7 @@ li span:first-child {
     font-size: 21px;
   }
 }
-@media only screen and (max-width: 949px) {
+@media only screen and (min-width: 500px) and (max-width: 949px) {
   html {
     width: 100%;
   }
@@ -180,6 +180,12 @@ li span:first-child {
   text-align: center;
   padding-top: 0.58rem;
 }
+.profile h1::before {
+  background-image: url(images/user.svg);
+  background-size: 50%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
 .profile-bold {
   font-weight: bold;
 }
@@ -192,7 +198,10 @@ li span:first-child {
   margin-left: 0.55rem;
 }
 .contact h1::before {
-  content: "\1F4DE";
+  background-image: url(images/phone.svg);
+  background-size: 60%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
 .contact h1::after {
   margin-left: 0.48rem;
@@ -218,6 +227,12 @@ li span:first-child {
 .skills h1 {
   margin-bottom: 1.61rem;
 }
+.skills h1::before {
+  background-image: url(images/lightbulb.svg);
+  background-size: 60%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
 .skills-points,
 .skills-points-colored {
   display: inline-block;
@@ -239,7 +254,10 @@ li span:first-child {
   margin-left: 0.87rem;
 }
 .education h1::before {
-  content: "\2605";
+  background-image: url(images/star.svg);
+  background-size: 70%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
 .education-degree {
   color: #3d6cb0;
@@ -251,8 +269,20 @@ li span:first-child {
   margin-top: 2.9rem;
   margin-bottom: 3.226rem;
 }
+.experience h1::before {
+  background-image: url(images/suitcase.svg);
+  background-size: 55%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
 .experience h1::after {
   margin-left: 0.32rem;
+}
+.software h1::before {
+  background-image: url(images/laptop.svg);
+  background-size: 60%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
 .software h1::after {
   margin-left: 1.645rem;

@@ -18,6 +18,12 @@ circle(n, color)
   border-radius 50%
   background-color color
 
+background-icon(path, n = 60%)
+  background-image url(path)
+  background-size n
+  background-position 50% 50%
+  background-repeat no-repeat
+
 font-weight-bold() //font-family MyriadProBold
   font-weight bold
 
@@ -125,7 +131,7 @@ li span:first-child
     font-size 21px
 
 
-@media only screen and (max-width: 949px)
+@media only screen and (min-width: 500px)and (max-width: 949px)
  html
     width 100%
   .column-1
@@ -179,6 +185,8 @@ li span:first-child
   text-align center
   padding-top 0.58rem
 
+.profile h1::before
+  background-icon "images/user.svg" 50%
 .profile-bold
   font-weight-bold()
 
@@ -191,7 +199,7 @@ li span:first-child
   margin-left 0.55rem
 
 .contact h1::before
-  content "📞"
+  background-icon "images/phone.svg"
 
 .contact h1::after
   margin-left 0.48rem
@@ -217,6 +225,9 @@ li span:first-child
 .skills h1
   margin-bottom 1.61rem
 
+.skills h1::before
+  background-icon "images/lightbulb.svg"
+
 .skills-points
 .skills-points-colored
   display inline-block
@@ -232,7 +243,7 @@ li span:first-child
   margin-left 0.87rem
 
 .education h1::before
-  content "\2605"
+  background-icon "images/star.svg" 70%
 
 .education-degree
   color header-color
@@ -244,8 +255,14 @@ li span:first-child
   margin-top 2.9rem
   margin-bottom 3.226rem
 
+.experience h1::before
+  background-icon "images/suitcase.svg" 55%
+
 .experience h1::after
   margin-left 0.32rem
+
+.software h1::before
+  background-icon "images/laptop.svg"
 
 .software h1::after
   margin-left 1.645rem
