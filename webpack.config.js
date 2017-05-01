@@ -11,7 +11,7 @@ module.exports = {
         },
 
         output: {
-            path: __dirname + '/public/html',
+            path: __dirname + '/public',
             filename: "home.js"
         },
 

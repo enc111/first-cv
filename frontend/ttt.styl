@@ -18,6 +18,13 @@ circle(n, color)
   border-radius 50%
   background-color color
 
+clearfix()
+  content ""
+  display block
+  clear both
+  visibility hidden
+  height 0
+
 background-icon(path, n = 60%)
   background-image url(path)
   background-size n
@@ -99,13 +106,8 @@ li span:first-child
 .column
   margin 4.3% 4.6% 5.5% 5%
 
-.software::after
 .column::after
-  content ""
-  display block
-  clear both
-  visibility hidden
-  height 0
+  clearfix()
 
 @media only screen and (min-width: 950px) and (max-width: 1920px)
   html
@@ -131,7 +133,6 @@ li span:first-child
   html
     font-size 21px
 
-
 @media only screen and (min-width: 500px)and (max-width: 949px)
  html
     width 100%
@@ -148,148 +149,10 @@ li span:first-child
  html
     font-size 12px
 
-.big-circle
-  margin 3.38% 0 0 23.55%
-  circle 15rem header-color
-  box-shadow inset 0 0 0 1px header-color,
-    inset 0 0 0 0.82rem #ffffff
-
-.name-inf
-  border-collapse collapse
-  margin 1.77rem 0 4.77rem 4.84rem
-  padding 0
-
-.name-inf.tr
-  border-width 0
-  padding 0
-  line-height 0
-
-.name-inf.td
-  border-width 0
-  line-height 0
-  font-weight normal
-  padding 0
-
-.name-inf-name
-  font-size 3.42rem
-  line-height 3.35rem
-  padding 0
-
-.name-inf-surname
-  font-weight-bold()
-  font-size 3.27rem
-  line-height 3.55rem
-
-.name-inf-prof-name
-  font-size 1.61rem
-  font-weight-bold()
-  text-align center
-  padding-top 0.58rem
-
-.profile h1::before
-  background-icon "images/user.svg" 50%
-.profile-bold
-  font-weight-bold()
-
-.profile_text
-  padding 0
-  margin 0.74rem 0 2.9rem 0
-  line-height 1.19rem
-
-.profile h1::after
-  margin-left 0.55rem
-
-.contact h1::before
-  background-icon "images/phone.svg"
-
-.contact h1::after
-  margin-left 0.48rem
-
-.contact-tab
-  font-size 1.32rem
-  text-align left
-  padding 0
-  margin 1.61rem 0 1.13rem 0
-
-.contact-tab th
-  color header-color
-  font-weight-bold()
-  padding-bottom 1.77rem
-
-.contact-tab td
-  padding-left 2.26rem
-  padding-bottom 1.77rem
-
-.skills div
-  text-align center
-
-.skills h1
-  margin-bottom 1.61rem
-
-.skills h1::before
-  background-icon "images/lightbulb.svg"
-
-.skills-points
-.skills-points-colored
-  display inline-block
-  margin 0.48rem 0.45rem 1.129rem 0
-
-.skills-points
-  circle 1.129rem points-base-color
-
-.skills-points-colored
-  circle 1.129rem header-color
-
-.skills h1::after
-  margin-left 0.87rem
-
-.education h1::before
-  background-icon "images/star.svg" 70%
-
-.education-degree
-  color header-color
-
-.education h1::after
-  margin-left 0.77rem
-
-.experience ul
-  margin-top 2.9rem
-  margin-bottom 3.226rem
-
-.experience h1::before
-  background-icon "images/suitcase.svg" 55%
-
-.experience h1::after
-  margin-left 0.32rem
-
-.software h1::before
-  background-icon "images/laptop.svg"
-
-.software h1::after
-  margin-left 1.645rem
-
-.software h1
-  margin-bottom 1.61rem
-
-.software-column-1
-  float left
-  padding 0
-  width 44%
-
-.software-column-2
-  float right
-  padding 0
-  width 44%
-
-.software-column_points
-.software-column_points_colored
-  display inline-block
-  height 1.45rem
-
-.software-column_points
-  background-color points-base-color
-  width 100%
-  margin 0.806rem 0 1.45rem 0
-
-.software-column_points_colored
-  background-color header-color
+@import "person/person.styl"
+@import "profile/profile.styl"
+@import "contact/contact.styl"
+@import "skills/skills.styl"
+@import "education/education.styl"
+@import "experience/experience.styl"
+@import "software/software.styl"
