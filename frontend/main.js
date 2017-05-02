@@ -1,3 +1,3 @@
 'use strict';
 
-import './ttt.styl';
+import './main.styl';

@@ -1,22 +1,24 @@
-div.software
-    h1 SOFTWARE
-    div.software-column-1
-        div.software-column__photoshop
-            h2 PHOTOSHOP
-            +softwarePoints(90.8)
-        div.software-column__illustrator
-            h2 ILLUSTRATOR
-            +softwarePoints(70.27)
-        div.software-column__indesign
-            h2 INDESIGN
-            +softwarePoints(56)
-    div.software-column-2
-        div.software-column__dreamweaver
-            h2 DREAMWEAVER
-            +softwarePoints(82.52)
-        div.software-column__after-effects
-            h2 AFTER EFFECTS
-            +softwarePoints(61.62)
-        div.software-column__html5css3
-            h2 HTML&CSS3
-            +softwarePoints(90.8)
+mixin software()
+    include /../mixins/softwarePoints
+    div.software
+        h1 SOFTWARE
+        div.software-column-1
+            div.software-column__photoshop
+                h2 PHOTOSHOP
+                +softwarePoints(90.8)
+            div.software-column__illustrator
+                h2 ILLUSTRATOR
+                +softwarePoints(70.27)
+            div.software-column__indesign
+                h2 INDESIGN
+                +softwarePoints(56)
+        div.software-column-2
+            div.software-column__dreamweaver
+                h2 DREAMWEAVER
+                +softwarePoints(82.52)
+            div.software-column__after-effects
+                h2 AFTER EFFECTS
+                +softwarePoints(61.62)
+            div.software-column__html5css3
+                h2 HTML&CSS3
+                +softwarePoints(90.8)

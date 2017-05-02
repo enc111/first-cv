@@ -2,16 +2,21 @@ doctype html
 head
     title cv
 body
-    include mixins/skill
-    include mixins/softwarePoints
     div.column
         div.column-1
             include person/person
+            +person()
             include profile/profile
+            +profile()
             include contact/contact
+            +contact()
             include skills/skills
+            +skills()
 
         div.column-2
             include education/education
+            +education()
             include experience/experience
+            +experience()
             include software/software
+            +software()

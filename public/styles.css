@@ -80,7 +80,7 @@ li span:first-child {
   font-weight: bold;
 }
 .column {
-  margin: 4.3% 4.6% 5.5% 5%;
+  margin: 6.1% 4.6% 5.5% 4.6%;
 }
 .column::after {
   content: "";
@@ -97,7 +97,7 @@ li span:first-child {
     width: 90.6%;
   }
   .column-1 {
-    width: 36.93%;
+    width: 37%;
     float: left;
   }
   .column-2 {
@@ -120,7 +120,7 @@ li span:first-child {
     font-size: 21px;
   }
 }
-@media only screen and (min-width: 500px) and (max-width: 949px) {
+@media only screen and (min-width: 550px) and (max-width: 949px) {
   html {
     width: 100%;
   }
@@ -134,7 +134,7 @@ li span:first-child {
     font-size: 14px;
   }
 }
-@media only screen and (max-width: 599px) {
+@media only screen and (min-width: 550px) and (max-width: 599px) {
   html {
     font-size: 12px;
   }
@@ -149,7 +149,7 @@ li span:first-child {
 }
 .person__name-inf {
   border-collapse: collapse;
-  margin: 1.77rem 0 4.77rem 4.84rem;
+  margin: 1.77rem 0 4.8rem 4.84rem;
   padding: 0;
 }
 .person__name-inf.tr {
