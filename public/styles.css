@@ -12,6 +12,7 @@ body {
 h1 {
   font-size: 2.65rem;
   font-weight: bold;
+  font-family: MyriadProBold;
   color: #3d6cb0;
   display: flex;
   align-items: center;
@@ -51,7 +52,7 @@ li span {
 ul {
   list-style: none;
   padding: 0;
-  margin: 1.77rem 0 3.39rem 0.806rem;
+  margin: 1.77rem 0 3.42rem 0.806rem;
 }
 li p,
 li h2 {
@@ -61,7 +62,7 @@ li h2 {
   margin-bottom: 0.32rem;
 }
 li p {
-  margin-bottom: 0.645rem;
+  margin-bottom: 0.92rem;
 }
 li::before {
   content: '';
@@ -70,7 +71,10 @@ li::before {
   height: 1.29rem;
   border-radius: 50%;
   background-color: #000;
-  margin-right: 0.69rem;
+  margin-right: 1.24rem;
+}
+li span:nth-of-type(2) {
+  padding-left: 1rem;
 }
 p {
   font-size: 1rem;
@@ -78,9 +82,10 @@ p {
 }
 li span:first-child {
   font-weight: bold;
+  font-family: MyriadProBold;
 }
 .column {
-  margin: 6.1% 4.6% 5.5% 4.6%;
+  margin: 6.1% 0 5.5% 4.6%;
 }
 .column::after {
   content: "";
@@ -94,15 +99,19 @@ li span:first-child {
     width: 100%;
   }
   .column {
-    width: 90.6%;
+    width: 92.4%;
   }
   .column-1 {
-    width: 37%;
+    width: 37.1%;
     float: left;
+    margin: 0;
+    padding: 0;
   }
   .column-2 {
     width: 56.38%;
     float: right;
+    margin: 0;
+    padding: 0;
   }
 }
 @media only screen and (min-width: 801px) and (max-width: 1023px) {
@@ -170,12 +179,14 @@ li span:first-child {
 }
 .person__name-inf-surname {
   font-weight: bold;
-  font-size: 3.27rem;
+  font-family: MyriadProBold;
+  font-size: 3.66rem;
   line-height: 3.55rem;
 }
 .person__name-inf-prof-name {
   font-size: 1.61rem;
   font-weight: bold;
+  font-family: MyriadProBold;
   text-align: center;
   padding-top: 0.58rem;
 }
@@ -187,11 +198,13 @@ li span:first-child {
 }
 .profile-bold {
   font-weight: bold;
+  font-family: MyriadProBold;
+  line-height: 1.23rem;
 }
 .profile_text {
   padding: 0;
-  margin: 0.74rem 0 2.9rem 0;
-  line-height: 1.19rem;
+  margin: 0.85rem 0 2.9rem 0;
+  line-height: 1.2353rem;
 }
 .profile h1::after {
   margin-left: 0.55rem;
@@ -210,15 +223,21 @@ li span:first-child {
   text-align: left;
   padding: 0;
   margin: 1.61rem 0 1.13rem 0;
+  border-width: 0;
+  border-collapse: collapse;
 }
 .contact-tab th {
   color: #3d6cb0;
   font-weight: bold;
-  padding-bottom: 1.77rem;
+  font-family: MyriadProBold;
+  padding: 0 0 1.77rem 0;
+  border-width: 0;
+  text-align: left;
 }
 .contact-tab td {
   padding-left: 2.26rem;
   padding-bottom: 1.77rem;
+  border-width: 0;
 }
 .skills div {
   text-align: center;
@@ -235,7 +254,7 @@ li span:first-child {
 .skills-points,
 .skills-points-colored {
   display: inline-block;
-  margin: 0.48rem 0.45rem 1.129rem 0;
+  margin: 0.48rem 0.65rem 1.129rem 0;
 }
 .skills-points {
   width: 1.129rem;
@@ -298,7 +317,7 @@ li span:first-child {
 }
 .software-column-1 {
   float: left;
-  padding: 0;
+  padding: 0 0 0 0.5rem;
   width: 44%;
 }
 .software-column-2 {
