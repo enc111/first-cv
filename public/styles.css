@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family: MyriadProBold;
-  src: url(fonts/MyriadProBold.ttf);
+  src: url(fonts/MyriadProBold.ttf), url(fonts/MyriadProBold.woff), url(fonts/MyriadProBold.svg);
 }
 body {
   font-family: MyriadPro;
@@ -129,11 +129,12 @@ li span:first-child {
     font-size: 21px;
   }
 }
-@media only screen and (min-width: 550px) and (max-width: 949px) {
+@media only screen and (min-width: 650px) and (max-width: 949px) {
   html {
     width: 100%;
   }
-  .column-1 .column-2 {
+  .column-1,
+  .column-2 {
     float: none;
     width: 100%;
   }
