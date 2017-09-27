@@ -16,3 +16,6 @@
 /fontend - папка с исходным кодом;
 /public - папка с полученными в результате файлами;
 webpack.config.js - файл конфигурации.
+
+# Ссылка на результат на Github Pages:
+https://enc111.github.io/
